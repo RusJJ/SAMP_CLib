@@ -1,0 +1,23 @@
+{
+    "user": "RusJJ",
+    "repo": "simpletranslator-plugin",
+    "resources": [
+        {
+            "name": "^simpletranslator-plugin-(.*).zip$",
+            "platform": "linux",
+            "archive": true,
+            "includes": ["pawno/include"],
+            "plugins": ["plugins/simpletranslator.so"]
+        },
+        {
+            "name": "^simpletranslator-plugin-(.*).zip$",
+            "platform": "windows",
+            "archive": true,
+            "includes": ["pawno/include"],
+            "plugins": ["plugins/simpletranslator.dll"]
+        }
+    ],
+    "runtime": {
+        "plugins": ["RusJJ/simpletranslator-plugin"]
+    }
+}
