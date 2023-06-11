@@ -49,7 +49,7 @@ jobs:
     - name: Upload artifacts
       uses: actions/upload-artifact@v3
       with:
-        name: simpletranslator-win-rel-${{ steps.current-time.outputs.formattedTime }}-${{ steps.vars.outputs.sha_short }}
+        name: samp-plugin-win-rel-${{ steps.current-time.outputs.formattedTime }}-${{ steps.vars.outputs.sha_short }}
         path: build/bin/Release
   build-windows-debug:
     runs-on: windows-2019
@@ -88,7 +88,7 @@ jobs:
     - name: Upload artifacts
       uses: actions/upload-artifact@v3
       with:
-        name: simpletranslator-win-debug-${{ steps.current-time.outputs.formattedTime }}-${{ steps.vars.outputs.sha_short }}
+        name: samp-plugin-win-debug-${{ steps.current-time.outputs.formattedTime }}-${{ steps.vars.outputs.sha_short }}
         path: build/bin/Debug
   build-linux-debug:
     runs-on: ubuntu-latest
@@ -129,7 +129,7 @@ jobs:
     - name: Upload artifacts
       uses: actions/upload-artifact@v3
       with:
-        name: simpletranslator-linux-debug-${{ steps.current-time.outputs.formattedTime }}-${{ steps.vars.outputs.sha_short }}
+        name: samp-plugin-linux-debug-${{ steps.current-time.outputs.formattedTime }}-${{ steps.vars.outputs.sha_short }}
         path: build/bin
   build-linux-release:
     runs-on: ubuntu-latest
@@ -170,5 +170,5 @@ jobs:
     - name: Upload artifacts
       uses: actions/upload-artifact@v3
       with:
-        name: simpletranslator-linux-rel-${{ steps.current-time.outputs.formattedTime }}-${{ steps.vars.outputs.sha_short }}
+        name: samp-plugin-linux-rel-${{ steps.current-time.outputs.formattedTime }}-${{ steps.vars.outputs.sha_short }}
         path: build/bin

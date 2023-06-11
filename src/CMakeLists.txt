@@ -9,8 +9,8 @@ list(APPEND PLUGIN_SOURCES
 
 if(WIN32)
 	list(APPEND PLUGIN_SOURCES
-		${PROJECT_SOURCE_DIR}/simpletranslator.def
-		${PROJECT_SOURCE_DIR}/simpletranslator.rc
+		${PROJECT_SOURCE_DIR}/clib.def
+		${PROJECT_SOURCE_DIR}/clib.rc
 	)
 endif()
 

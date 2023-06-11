@@ -8,10 +8,10 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 	{
 		BLOCK "04090025"
 		{
-			VALUE "FileDescription", "SA-MP SimpleTranslator Plugin"
+			VALUE "FileDescription", "SA-MP CLib Plugin"
 			VALUE "LegalCopyright", "Copyright � 2023 RusJJ"
-			VALUE "OriginalFilename", "simpletranslator.dll"
-			VALUE "ProductName", "SA-MP SimpleTranslator Plugin"
+			VALUE "OriginalFilename", "clib.dll"
+			VALUE "ProductName", "SA-MP CLib Plugin"
 			VALUE "ProductVersion", "v1.0"
 		}
 	}

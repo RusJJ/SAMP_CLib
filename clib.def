@@ -1,4 +1,4 @@
-LIBRARY	"simpletranslator"
+LIBRARY	"clib"
 
 EXPORTS
 	Supports
