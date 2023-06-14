@@ -5,4 +5,10 @@
 
 #include <a_samp>
 
-native UnixTimestamp();
+#define RAND_MAX 32767
+
+#define exit() SendRconCommand("exit")
+
+native time();
+native rand();
+native srand(seed);
